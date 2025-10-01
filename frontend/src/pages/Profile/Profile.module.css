@@ -1,0 +1,146 @@
+.profileContainer {
+  padding: 2rem;
+  margin-left: 40px;
+  color: #ffffff;
+  background: linear-gradient(to bottom right, #1e1e2f, #0f0f1a);
+  min-height: 100vh;
+}
+
+.heroSection {
+  text-align: center;
+  background: linear-gradient(135deg, #3b2db7, #1a1a40);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.profileImageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #22d3ee;
+}
+
+.profilePlaceholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #2d2d44;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border: 3px solid #22d3ee;
+}
+
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.statsRow div {
+  text-align: center;
+}
+
+.editButton {
+  margin-top: 1rem;
+  background-color: #22d3ee;
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+}
+
+.active {
+  border-color: #22d3ee;
+}
+
+/* Ovdje je promjena: FLEX umjesto GRID */
+.statsGrid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.statCard {
+  background-color: #1f1f2e;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.sectionTitle {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.achievements {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.achievement {
+  background: #2d2d44;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.recentlyPlayed {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.songCard {
+  background: #1f1f2e;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.songColor {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.songInfo {
+  flex: 1;
+}
+
+.duration {
+  color: #aaa;
+  font-size: 0.9rem;
+}

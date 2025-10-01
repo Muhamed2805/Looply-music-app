@@ -1,0 +1,140 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.music-icon-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('../../my-icons/LooplyLogo.png');
+  background-repeat: repeat;
+  background-size: 80px;
+  opacity: 0.03;
+  animation: floatIcons 60s linear infinite;
+  z-index: 0;
+}
+
+@keyframes floatIcons {
+  from { background-position: 0 0; }
+  to { background-position: 1000px 1000px; }
+}
+
+/* Lijeva strana */
+.login-left {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  text-align: center;
+}
+
+
+.login-left img {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.login-left h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-left p {
+  font-size: 1rem;
+  color: #d1d5db;
+  max-width: 320px;
+  line-height: 1.5;
+}
+
+/* Desna strana */
+.login-right {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(6px);
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+/* Forma */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form input {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e293b;
+  color: white;
+}
+
+.login-form input::placeholder {
+  color: #94a3b8;
+}
+
+.login-form .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+}
+
+.login-form button {
+  padding: 0.75rem;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Alternativni login */
+.alt-login {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-buttons button {
+  background-color: #1e293b;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}

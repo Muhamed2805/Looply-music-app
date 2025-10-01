@@ -1,0 +1,61 @@
+.container {
+  padding: 2rem;
+  margin-left: 40px;
+  color: #ffffff;
+  background: linear-gradient(to bottom right, #1e1e2f, #0f0f1a);
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, #3b2db7, #1a1a40);
+  padding: 2rem;
+  border-radius: 20px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero h5 {
+  text-transform: uppercase;
+  color: #8ea6f0;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin: 0.2rem 0;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #cbd5e1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #1f1f2e;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.emoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,59 @@
+.searchPage {
+  padding: 30px;
+    margin-left: 40px;
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  min-height: 100vh;
+  color: white;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+  padding: 20px;
+  border-radius: 16px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.trackName {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.trackArtist {
+  font-size: 14px;
+  color: #e2e8f0;
+}
