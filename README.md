@@ -1,4 +1,4 @@
-# Loopyl
+# 🎵Loopyl
 
 **Looply** is a music application for discovering songs and artists via the Last.fm API.
 
