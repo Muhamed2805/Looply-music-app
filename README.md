@@ -46,3 +46,10 @@ Use Postman for the following endpoints:
 - `/api/lastfm/top-tracks`
 - `/api/lastfm/pop-tracks`
 - `/api/search?track=...`
+
+## Current Status / Upcoming Features
+The app is still under development. Current work includes:
+- Adding playlist management functionality
+- Improving UI/UX design
+- Implementing Forgot Password feature
+- Adding social login options (Google, Facebook)
